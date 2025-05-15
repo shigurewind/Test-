@@ -28,6 +28,9 @@ static	ID3D11VertexShader* g_VertexShader;	//頂点シェーダーオブジェクトポインタ
 static	ID3D11PixelShader* g_PixelShader;	//ピクセルシェーダーオブジェクトポインタ
 static	ID3D11InputLayout* g_VertexLayout;	//頂点レイアウトオブジェクトポインタ
 
+
+int branch1 = 1;//branch1
+
 //=============================================================================
 // 初期化処理
 //=============================================================================
@@ -110,7 +113,7 @@ void DrawPolygon2D(void)
 		XMMATRIX	RotationMatrix = XMMatrixRotationZ(XMConvertToRadians(g_Object1.Rotate));
 
 		//スケーリング行列作成（倍率1.0が等倍、0倍はダメ！）
-		XMMATRIX	ScalingMatrix = XMMatrixScaling(g_Object1.Scale.x,g_Object1.Scale.y, 1.0f);
+		XMMATRIX	ScalingMatrix = XMMatrixScaling(g_Object1.Scale.x, g_Object1.Scale.y, 1.0f);
 
 		//ワールド行列の作成（ポリゴンの表示の仕方を指定する最終的な行列
 		XMMATRIX	WorldMatrix = ScalingMatrix * RotationMatrix * TranslationMatrix;
