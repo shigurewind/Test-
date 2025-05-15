@@ -137,6 +137,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="model.cpp" />
+    <ClCompile Include="move.cpp" />
     <ClCompile Include="polygon2D.cpp" />
     <ClCompile Include="polygon3D.cpp" />
     <ClCompile Include="polygonModel.cpp" />
