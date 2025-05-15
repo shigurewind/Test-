@@ -57,6 +57,12 @@
     <ClCompile Include="model.cpp">
       <Filter>system</Filter>
     </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="aaa.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">

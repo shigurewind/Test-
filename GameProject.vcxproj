@@ -131,7 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aaa.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="main.cpp" />
