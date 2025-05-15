@@ -142,6 +142,7 @@
     <ClCompile Include="polygonModel.cpp" />
     <ClCompile Include="renderer.cpp" />
     <ClCompile Include="sprite.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <ItemGroup>
