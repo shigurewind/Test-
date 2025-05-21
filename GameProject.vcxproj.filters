@@ -57,6 +57,9 @@
     <ClCompile Include="model.cpp">
       <Filter>system</Filter>
     </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
